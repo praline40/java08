@@ -9,17 +9,17 @@ public class Penguin extends Bird implements Swim {
         this.depths = 0;
     }
 
-    @Override
-    public String sing() {
-        return "Quack!";
-    }
-
     public int getDepths() {
         return depths;
     }
 
     public boolean isSwimming() {
         return swimming;
+    }
+
+    @Override
+    public String sings() {
+        return "Quack!";
     }
 
     /**
